@@ -8,7 +8,7 @@ var label_r
 var ponta 
 var tween
 var new_position
-export var URL = "http://10.128.66.238:3000//godot" #É importante ver se é a mesma URL do site
+export var URL = "http://10.128.66.238:3000/godot" #É importante ver se é a mesma URL do site
 
 #Essa é a função do Start, que começa o timer, faz o request, torna o botão de start
 #invisível e o de stop visível
