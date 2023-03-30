@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="{{url_for('static', filename = 'index.style.css')}}">
+</head>
+<body>
+    <!-- Aqui é definido o método que é post -->
+    <form method="post" action="/coords">
+        <div class="main-content">
+            <div class="main-left">
+                <!-- Aqui começa os campos de entrada para as coordenadas -->
+                <div class="display-flex">
+                    <label>X</label>
+                    <input type="text" id="x" name="x" value=""></input>
+                </div>
+                <div class="display-flex">
+                    <label>Y</label>
+                    <input type="text" id="y" name="y" value=""></input>
+                </div>
+                <div class="display-flex">
+                    <label>Z</label>
+                    <input type="text" id="z" name="z" value=""></input>
+                </div>
+                <div class="display-flex">
+                    <label>R</label>
+                    <input type="text" id="r" name="r" value=""></input>
+                </div>
+            </div>
+            <!-- Nessa parte será mostrada a posição atual em que o robô está -->
+            <div>
+                <div class="display-flex">
+                    <label>X</label>
+                    <p> {{coordinates[(coordinates|length-1)].x}}</p>
+                    
+                </div>
+                <div class="display-flex">
+                    <label>Y</label>
+                    <p> {{coordinates[(coordinates|length-1)].y}}</p>
+                </div>
+                <div class="display-flex">
+                    <label>Z</label>
+                    <p> {{coordinates[(coordinates|length-1)].z}}</p>
+                </div>
+                <div class="display-flex">
+                    <label>R</label>
+                    <p> {{coordinates[(coordinates|length-1)].r}}</p>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>

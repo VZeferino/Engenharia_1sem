@@ -1,0 +1,41 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Node
+
+export var URL = \"http://192.168.15.11:3000/godot\"
+
+func _on_Request_pressed():
+	$HTTPRequest.request(URL)
+	pass # Replace with function body.
+
+
+func _on_HTTPRequest_request_completed(result, response_code, headers, body):
+	var output = body.get_string_from_utf8()
+	var x = output.get_slice(\"/\",0)
+	var y = output.get_slice(\"/\",1)
+	var z = output.get_slice(\"/\",2)
+	var r = output.get_slice(\"/\",3)
+	print(output)
+	$HTTPRequest.cancel_request()
+	pass # Replace with function body.
+"
+
+[node name="Node2D" type="Node2D"]
+script = SubResource( 1 )
+
+[node name="Request" type="Button" parent="."]
+margin_left = 5.0
+margin_top = 6.0
+margin_right = 283.0
+margin_bottom = 97.0
+text = "Request"
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[node name="CSGBox" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, -0.178201, 0.983994, 0, -0.983994, -0.178201, 0, 0, 0 )
+
+[connection signal="pressed" from="Request" to="." method="_on_Request_pressed"]
+[connection signal="pressed" from="Request" to="." method="_on_Button_pressed"]
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_HTTPRequest_request_completed"]

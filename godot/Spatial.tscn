@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Spatial.gd" type="Script" id=1]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="Spatial" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00147772, 0.027998, 0 )
+script = ExtResource( 1 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 52.9932 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Request" type="Button" parent="CanvasLayer"]
+margin_right = 129.0
+margin_bottom = 51.0
+text = "Start"
+
+[node name="Stop" type="Button" parent="CanvasLayer"]
+margin_right = 129.0
+margin_bottom = 51.0
+text = "Stop"
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[node name="RigidBody" type="RigidBody" parent="."]
+gravity_scale = 0.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="CollisionShape" type="CollisionShape" parent="RigidBody"]
+shape = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="RigidBody"]
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Label_x" type="Label3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -8, 0 )
+pixel_size = 0.2
+
+[node name="Label_y" type="Label3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -12, 0 )
+pixel_size = 0.2
+
+[node name="Label_z" type="Label3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -16, 0 )
+pixel_size = 0.2
+
+[node name="Label_r" type="Label3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -20, 0 )
+pixel_size = 0.2
+
+[node name="Tween" type="Tween" parent="."]
+
+[connection signal="pressed" from="CanvasLayer/Request" to="." method="_on_Request_pressed"]
+[connection signal="pressed" from="CanvasLayer/Stop" to="." method="_on_Stop_pressed"]
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_HTTPRequest_request_completed"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
