@@ -1,0 +1,34 @@
+[4.744s] Invoking command in '/home/vzeferino/ros2/src/simu': PYTHONPATH=/home/vzeferino/ros2/src/build/simu/prefix_override:/home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/simu build --build-base /home/vzeferino/ros2/src/build/simu/build install --record /home/vzeferino/ros2/src/build/simu/install.log --single-version-externally-managed
+[6.291s] running egg_info
+[6.293s] creating ../build/simu/simu.egg-info
+[6.294s] writing ../build/simu/simu.egg-info/PKG-INFO
+[6.295s] writing dependency_links to ../build/simu/simu.egg-info/dependency_links.txt
+[6.304s] writing entry points to ../build/simu/simu.egg-info/entry_points.txt
+[6.312s] writing requirements to ../build/simu/simu.egg-info/requires.txt
+[6.313s] writing top-level names to ../build/simu/simu.egg-info/top_level.txt
+[6.321s] writing manifest file '../build/simu/simu.egg-info/SOURCES.txt'
+[6.332s] reading manifest file '../build/simu/simu.egg-info/SOURCES.txt'
+[6.334s] writing manifest file '../build/simu/simu.egg-info/SOURCES.txt'
+[6.335s] running build
+[6.348s] running build_py
+[6.354s] creating /home/vzeferino/ros2/src/build/simu/build
+[6.355s] creating /home/vzeferino/ros2/src/build/simu/build/lib
+[6.355s] creating /home/vzeferino/ros2/src/build/simu/build/lib/simu
+[6.355s] copying simu/__init__.py -> /home/vzeferino/ros2/src/build/simu/build/lib/simu
+[6.355s] running install
+[6.355s] running install_lib
+[6.355s] creating /home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages/simu
+[6.355s] copying /home/vzeferino/ros2/src/build/simu/build/lib/simu/__init__.py -> /home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages/simu
+[6.370s] byte-compiling /home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages/simu/__init__.py to __init__.cpython-310.pyc
+[6.372s] running install_data
+[6.374s] creating /home/vzeferino/ros2/src/install/simu/share/ament_index
+[6.374s] creating /home/vzeferino/ros2/src/install/simu/share/ament_index/resource_index
+[6.374s] creating /home/vzeferino/ros2/src/install/simu/share/ament_index/resource_index/packages
+[6.375s] copying resource/simu -> /home/vzeferino/ros2/src/install/simu/share/ament_index/resource_index/packages
+[6.384s] copying package.xml -> /home/vzeferino/ros2/src/install/simu/share/simu
+[6.385s] running install_egg_info
+[6.391s] Copying ../build/simu/simu.egg-info to /home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages/simu-0.0.0-py3.10.egg-info
+[6.396s] running install_scripts
+[6.560s] Installing run script to /home/vzeferino/ros2/src/install/simu/lib/simu
+[6.584s] writing list of installed files to '/home/vzeferino/ros2/src/build/simu/install.log'
+[6.781s] Invoked command in '/home/vzeferino/ros2/src/simu' returned '0': PYTHONPATH=/home/vzeferino/ros2/src/build/simu/prefix_override:/home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/simu build --build-base /home/vzeferino/ros2/src/build/simu/build install --record /home/vzeferino/ros2/src/build/simu/install.log --single-version-externally-managed

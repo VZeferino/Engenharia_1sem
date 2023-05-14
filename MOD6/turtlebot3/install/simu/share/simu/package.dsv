@@ -1,0 +1,6 @@
+source;share/simu/hook/pythonpath.ps1
+source;share/simu/hook/pythonpath.dsv
+source;share/simu/hook/pythonpath.sh
+source;share/simu/hook/ament_prefix_path.ps1
+source;share/simu/hook/ament_prefix_path.dsv
+source;share/simu/hook/ament_prefix_path.sh

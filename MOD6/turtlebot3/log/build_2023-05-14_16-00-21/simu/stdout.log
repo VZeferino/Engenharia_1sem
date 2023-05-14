@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/simu/simu.egg-info/PKG-INFO
+writing dependency_links to ../../build/simu/simu.egg-info/dependency_links.txt
+writing entry points to ../../build/simu/simu.egg-info/entry_points.txt
+writing requirements to ../../build/simu/simu.egg-info/requires.txt
+writing top-level names to ../../build/simu/simu.egg-info/top_level.txt
+reading manifest file '../../build/simu/simu.egg-info/SOURCES.txt'
+writing manifest file '../../build/simu/simu.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/vzeferino/ros2/install/simu/lib/python3.10/site-packages/simu-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/simu/simu.egg-info to /home/vzeferino/ros2/install/simu/lib/python3.10/site-packages/simu-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hi script to /home/vzeferino/ros2/install/simu/lib/simu
+writing list of installed files to '/home/vzeferino/ros2/build/simu/install.log'

@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.025688] (simu) JobQueued: {'identifier': 'simu', 'dependencies': OrderedDict()}
+[0.025825] (simu) JobStarted: {'identifier': 'simu'}
+[0.121448] (-) TimerEvent: {}
+[0.243972] (-) TimerEvent: {}
+[0.354394] (-) TimerEvent: {}
+[0.459728] (-) TimerEvent: {}
+[0.592355] (-) TimerEvent: {}
+[0.693888] (-) TimerEvent: {}
+[0.796607] (-) TimerEvent: {}
+[0.898946] (-) TimerEvent: {}
+[1.002142] (-) TimerEvent: {}
+[1.102494] (-) TimerEvent: {}
+[1.210517] (-) TimerEvent: {}
+[1.311802] (-) TimerEvent: {}
+[1.412218] (-) TimerEvent: {}
+[1.544813] (-) TimerEvent: {}
+[1.645189] (-) TimerEvent: {}
+[1.745602] (-) TimerEvent: {}
+[1.845967] (-) TimerEvent: {}
+[1.979761] (-) TimerEvent: {}
+[2.091691] (-) TimerEvent: {}
+[2.193111] (-) TimerEvent: {}
+[2.294062] (-) TimerEvent: {}
+[2.404398] (-) TimerEvent: {}
+[2.504792] (-) TimerEvent: {}
+[2.605345] (-) TimerEvent: {}
+[2.722608] (-) TimerEvent: {}
+[2.829307] (-) TimerEvent: {}
+[2.930669] (-) TimerEvent: {}
+[3.036100] (-) TimerEvent: {}
+[3.144470] (-) TimerEvent: {}
+[3.244844] (-) TimerEvent: {}
+[3.404512] (-) TimerEvent: {}
+[3.566779] (-) TimerEvent: {}
+[3.667144] (-) TimerEvent: {}
+[3.776590] (-) TimerEvent: {}
+[3.879927] (-) TimerEvent: {}
+[4.029105] (-) TimerEvent: {}
+[4.312739] (-) TimerEvent: {}
+[4.413116] (-) TimerEvent: {}
+[4.521101] (-) TimerEvent: {}
+[4.622437] (-) TimerEvent: {}
+[4.734217] (-) TimerEvent: {}
+[4.834608] (-) TimerEvent: {}
+[4.940788] (-) TimerEvent: {}
+[5.049584] (-) TimerEvent: {}
+[5.149939] (-) TimerEvent: {}
+[5.285048] (-) TimerEvent: {}
+[5.385470] (-) TimerEvent: {}
+[5.507986] (-) TimerEvent: {}
+[5.608364] (-) TimerEvent: {}
+[5.718866] (-) TimerEvent: {}
+[5.821145] (-) TimerEvent: {}
+[5.928731] (-) TimerEvent: {}
+[6.029168] (-) TimerEvent: {}
+[6.144796] (-) TimerEvent: {}
+[6.290550] (-) TimerEvent: {}
+[6.392034] (-) TimerEvent: {}
+[6.498902] (-) TimerEvent: {}
+[6.599540] (-) TimerEvent: {}
+[6.711099] (-) TimerEvent: {}
+[6.811475] (-) TimerEvent: {}
+[6.921902] (-) TimerEvent: {}
+[7.056355] (-) TimerEvent: {}
+[7.156717] (-) TimerEvent: {}
+[7.259031] (-) TimerEvent: {}
+[7.370048] (-) TimerEvent: {}
+[7.470417] (-) TimerEvent: {}
+[7.577568] (-) TimerEvent: {}
+[7.678188] (-) TimerEvent: {}
+[7.781829] (-) TimerEvent: {}
+[7.925065] (simu) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/simu', 'build', '--build-base', '/home/vzeferino/ros2/build/simu/build', 'install', '--record', '/home/vzeferino/ros2/build/simu/install.log', '--single-version-externally-managed'], 'cwd': '/home/vzeferino/ros2/src/simu', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vzeferino', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/vzeferino', 'OLDPWD': '/home/vzeferino/ros2/src', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vzeferino/ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vzeferino', 'NAME': 'VZeferino', 'WSL_INTEROP': '/run/WSL/9_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/vzeferino/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/msys64/mingw64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/PC/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/PC/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/OneDrive/Documentos/chromedriver:/mnt/c/Users/PC/AppData/Roaming/npm:/snap/bin', 'WT_SESSION': '241c7952-f32e-421e-a4ea-6043496f4d5d', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/vzeferino/ros2/build/simu', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vzeferino/ros2/build/simu/prefix_override:/home/vzeferino/ros2/install/simu/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[7.934266] (-) TimerEvent: {}
+[8.034578] (-) TimerEvent: {}
+[8.142220] (-) TimerEvent: {}
+[8.244321] (-) TimerEvent: {}
+[8.352761] (-) TimerEvent: {}
+[8.453102] (-) TimerEvent: {}
+[8.554040] (-) TimerEvent: {}
+[8.654968] (-) TimerEvent: {}
+[8.755399] (-) TimerEvent: {}
+[8.855731] (-) TimerEvent: {}
+[8.956073] (-) TimerEvent: {}
+[9.056418] (-) TimerEvent: {}
+[9.122557] (simu) StdoutLine: {'line': b'running egg_info\n'}
+[9.122887] (simu) StdoutLine: {'line': b'writing ../../build/simu/simu.egg-info/PKG-INFO\n'}
+[9.123047] (simu) StdoutLine: {'line': b'writing dependency_links to ../../build/simu/simu.egg-info/dependency_links.txt\n'}
+[9.123165] (simu) StdoutLine: {'line': b'writing entry points to ../../build/simu/simu.egg-info/entry_points.txt\n'}
+[9.123333] (simu) StdoutLine: {'line': b'writing requirements to ../../build/simu/simu.egg-info/requires.txt\n'}
+[9.123512] (simu) StdoutLine: {'line': b'writing top-level names to ../../build/simu/simu.egg-info/top_level.txt\n'}
+[9.134636] (simu) StdoutLine: {'line': b"reading manifest file '../../build/simu/simu.egg-info/SOURCES.txt'\n"}
+[9.137012] (simu) StdoutLine: {'line': b"writing manifest file '../../build/simu/simu.egg-info/SOURCES.txt'\n"}
+[9.137732] (simu) StdoutLine: {'line': b'running build\n'}
+[9.138850] (simu) StdoutLine: {'line': b'running build_py\n'}
+[9.166403] (simu) StdoutLine: {'line': b'running install\n'}
+[9.166802] (-) TimerEvent: {}
+[9.167290] (simu) StdoutLine: {'line': b'running install_lib\n'}
+[9.167532] (simu) StdoutLine: {'line': b'running install_data\n'}
+[9.167712] (simu) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.170337] (simu) StdoutLine: {'line': b"removing '/home/vzeferino/ros2/install/simu/lib/python3.10/site-packages/simu-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.202639] (simu) StdoutLine: {'line': b'Copying ../../build/simu/simu.egg-info to /home/vzeferino/ros2/install/simu/lib/python3.10/site-packages/simu-0.0.0-py3.10.egg-info\n'}
+[9.202972] (simu) StdoutLine: {'line': b'running install_scripts\n'}
+[9.244738] (simu) StdoutLine: {'line': b'Installing hi script to /home/vzeferino/ros2/install/simu/lib/simu\n'}
+[9.245768] (simu) StdoutLine: {'line': b"writing list of installed files to '/home/vzeferino/ros2/build/simu/install.log'\n"}
+[9.267023] (-) TimerEvent: {}
+[9.325113] (simu) CommandEnded: {'returncode': 0}
+[9.367451] (-) TimerEvent: {}
+[9.422706] (simu) JobEnded: {'identifier': 'simu', 'rc': 0}
+[9.424113] (-) EventReactorShutdown: {}

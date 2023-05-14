@@ -1,0 +1,32 @@
+running egg_info
+creating ../build/simu/simu.egg-info
+writing ../build/simu/simu.egg-info/PKG-INFO
+writing dependency_links to ../build/simu/simu.egg-info/dependency_links.txt
+writing entry points to ../build/simu/simu.egg-info/entry_points.txt
+writing requirements to ../build/simu/simu.egg-info/requires.txt
+writing top-level names to ../build/simu/simu.egg-info/top_level.txt
+writing manifest file '../build/simu/simu.egg-info/SOURCES.txt'
+reading manifest file '../build/simu/simu.egg-info/SOURCES.txt'
+writing manifest file '../build/simu/simu.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vzeferino/ros2/src/build/simu/build
+creating /home/vzeferino/ros2/src/build/simu/build/lib
+creating /home/vzeferino/ros2/src/build/simu/build/lib/simu
+copying simu/__init__.py -> /home/vzeferino/ros2/src/build/simu/build/lib/simu
+running install
+running install_lib
+creating /home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages/simu
+copying /home/vzeferino/ros2/src/build/simu/build/lib/simu/__init__.py -> /home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages/simu
+byte-compiling /home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages/simu/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/vzeferino/ros2/src/install/simu/share/ament_index
+creating /home/vzeferino/ros2/src/install/simu/share/ament_index/resource_index
+creating /home/vzeferino/ros2/src/install/simu/share/ament_index/resource_index/packages
+copying resource/simu -> /home/vzeferino/ros2/src/install/simu/share/ament_index/resource_index/packages
+copying package.xml -> /home/vzeferino/ros2/src/install/simu/share/simu
+running install_egg_info
+Copying ../build/simu/simu.egg-info to /home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages/simu-0.0.0-py3.10.egg-info
+running install_scripts
+Installing run script to /home/vzeferino/ros2/src/install/simu/lib/simu
+writing list of installed files to '/home/vzeferino/ros2/src/build/simu/install.log'

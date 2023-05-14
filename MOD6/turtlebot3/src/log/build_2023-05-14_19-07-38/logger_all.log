@@ -1,0 +1,116 @@
+[2.605s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'simu']
+[2.605s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['simu'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4295b98670>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4295b980a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4295b980a0>>)
+[2.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.739s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vzeferino/ros2/src'
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(simu) by extensions ['ignore', 'ignore_ament_install']
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(simu) by extension 'ignore'
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(simu) by extension 'ignore_ament_install'
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(simu) by extensions ['colcon_pkg']
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(simu) by extension 'colcon_pkg'
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(simu) by extensions ['colcon_meta']
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(simu) by extension 'colcon_meta'
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(simu) by extensions ['ros']
+[2.799s] Level 1:colcon.colcon_core.package_identification:_identify(simu) by extension 'ros'
+[2.811s] DEBUG:colcon.colcon_core.package_identification:Package 'simu' with type 'ros.ament_python' and name 'simu'
+[2.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.932s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.932s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.951s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vzeferino/ros2/src/install
+[2.958s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vzeferino/ros2/install
+[2.967s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 381 installed packages in /opt/ros/humble
+[2.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.545s] Level 5:colcon.colcon_core.verb:set package 'simu' build argument 'cmake_args' from command line to 'None'
+[3.546s] Level 5:colcon.colcon_core.verb:set package 'simu' build argument 'cmake_target' from command line to 'None'
+[3.546s] Level 5:colcon.colcon_core.verb:set package 'simu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.546s] Level 5:colcon.colcon_core.verb:set package 'simu' build argument 'cmake_clean_cache' from command line to 'False'
+[3.546s] Level 5:colcon.colcon_core.verb:set package 'simu' build argument 'cmake_clean_first' from command line to 'False'
+[3.547s] Level 5:colcon.colcon_core.verb:set package 'simu' build argument 'cmake_force_configure' from command line to 'False'
+[3.547s] Level 5:colcon.colcon_core.verb:set package 'simu' build argument 'ament_cmake_args' from command line to 'None'
+[3.547s] Level 5:colcon.colcon_core.verb:set package 'simu' build argument 'catkin_cmake_args' from command line to 'None'
+[3.547s] Level 5:colcon.colcon_core.verb:set package 'simu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.547s] DEBUG:colcon.colcon_core.verb:Building package 'simu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vzeferino/ros2/src/build/simu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vzeferino/ros2/src/install/simu', 'merge_install': False, 'path': '/home/vzeferino/ros2/src/simu', 'symlink_install': False, 'test_result_base': None}
+[3.563s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.595s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.597s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vzeferino/ros2/src/simu' with build type 'ament_python'
+[3.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('simu', 'ament_prefix_path')
+[3.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vzeferino/ros2/src/install/simu/share/simu/hook/ament_prefix_path.ps1'
+[3.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vzeferino/ros2/src/install/simu/share/simu/hook/ament_prefix_path.dsv'
+[3.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vzeferino/ros2/src/install/simu/share/simu/hook/ament_prefix_path.sh'
+[3.657s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.657s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.473s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vzeferino/ros2/src/simu'
+[5.489s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.489s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vzeferino/ros2/src/simu': PYTHONPATH=/home/vzeferino/ros2/src/build/simu/prefix_override:/home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/simu build --build-base /home/vzeferino/ros2/src/build/simu/build install --record /home/vzeferino/ros2/src/build/simu/install.log --single-version-externally-managed
+[9.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vzeferino/ros2/src/simu' returned '0': PYTHONPATH=/home/vzeferino/ros2/src/build/simu/prefix_override:/home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/simu build --build-base /home/vzeferino/ros2/src/build/simu/build install --record /home/vzeferino/ros2/src/build/simu/install.log --single-version-externally-managed
+[9.989s] Level 1:colcon.colcon_core.environment:checking '/home/vzeferino/ros2/src/install/simu' for CMake module files
+[9.993s] Level 1:colcon.colcon_core.environment:checking '/home/vzeferino/ros2/src/install/simu' for CMake config files
+[10.007s] Level 1:colcon.colcon_core.environment:checking '/home/vzeferino/ros2/src/install/simu/lib'
+[10.007s] Level 1:colcon.colcon_core.environment:checking '/home/vzeferino/ros2/src/install/simu/bin'
+[10.007s] Level 1:colcon.colcon_core.environment:checking '/home/vzeferino/ros2/src/install/simu/lib/pkgconfig/simu.pc'
+[10.008s] Level 1:colcon.colcon_core.environment:checking '/home/vzeferino/ros2/src/install/simu/lib/python3.10/site-packages'
+[10.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('simu', 'pythonpath')
+[10.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vzeferino/ros2/src/install/simu/share/simu/hook/pythonpath.ps1'
+[10.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vzeferino/ros2/src/install/simu/share/simu/hook/pythonpath.dsv'
+[10.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vzeferino/ros2/src/install/simu/share/simu/hook/pythonpath.sh'
+[10.033s] Level 1:colcon.colcon_core.environment:checking '/home/vzeferino/ros2/src/install/simu/bin'
+[10.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simu)
+[10.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/vzeferino/ros2/src/install/simu/share/simu/package.ps1'
+[10.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vzeferino/ros2/src/install/simu/share/simu/package.dsv'
+[10.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/vzeferino/ros2/src/install/simu/share/simu/package.sh'
+[10.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/vzeferino/ros2/src/install/simu/share/simu/package.bash'
+[10.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/vzeferino/ros2/src/install/simu/share/simu/package.zsh'
+[10.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vzeferino/ros2/src/install/simu/share/colcon-core/packages/simu)
+[10.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.109s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.109s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.109s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.388s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.388s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.389s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.389s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.435s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[10.436s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vzeferino/ros2/src/install/local_setup.ps1'
+[10.449s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vzeferino/ros2/src/install/_local_setup_util_ps1.py'
+[10.462s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vzeferino/ros2/src/install/setup.ps1'
+[10.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vzeferino/ros2/src/install/local_setup.sh'
+[10.468s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vzeferino/ros2/src/install/_local_setup_util_sh.py'
+[10.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vzeferino/ros2/src/install/setup.sh'
+[10.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vzeferino/ros2/src/install/local_setup.bash'
+[10.497s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vzeferino/ros2/src/install/setup.bash'
+[10.503s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vzeferino/ros2/src/install/local_setup.zsh'
+[10.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vzeferino/ros2/src/install/setup.zsh'
